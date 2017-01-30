@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    font-size: 2em;
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 100px;
+    min-height: 100px;
+    background-color: blue;
+
+}
+
+#logo{
+    position: absolute;
+    vertical-align: middle;
+    top: 25%;
+    height: 50%;
+    left: 5vw;
+
+}
+
+#title{
+    text-align: center;
+    vertical-align: middle;
+    background-color: cyan;
+    width: 200px;
+    margin: auto;
+}
+.button-layout{
+    right: 5vw;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.button-layout > button{
+    height: 3em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+.sub-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: green;
+}
+
+.side-bar {
+    background-color: yellow;
+    width: 200px;
+    min-width: 200px;
+}
+
+.content {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.footer {
+    font-size: 1.15em;
+}
