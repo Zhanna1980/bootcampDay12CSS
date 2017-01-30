@@ -12,12 +12,14 @@ html, body {
 }
 
 .header {
+    border-top: 10px solid mediumspringgreen;
     display: flex;
     flex-direction: row;
     position: relative;
     height: 100px;
     min-height: 100px;
-    background-color: blue;
+    background-color: black;
+    color: white;
 
 }
 
@@ -26,30 +28,30 @@ html, body {
     vertical-align: middle;
     top: 25%;
     height: 50%;
-    left: 5vw;
-
+    left: 2vw;
+    font-size: 50%;
 }
 
-#title{
-    text-align: center;
-    vertical-align: middle;
-    background-color: cyan;
-    width: 200px;
-    margin: auto;
-}
 .button-layout{
-    right: 5vw;
+    right: 5px;
     position: absolute;
-    vertical-align: middle;
+    margin-top: auto;
+    height: 100%;
 }
 
-.button-layout > button{
-    height: 3em;
-    border-radius: 5px;
-    border: 1px solid black;
+.button-layout > .link-button{
+    padding: 5px;
+    margin:0;
+    top: 25%;
+    background-color: black;
+    color:white;
+    border: none;
+    font-size: 15px;
 }
 
-
+.link-button.green{
+    background-color: mediumspringgreen;
+}
 
 .sub-layout {
     display: flex;
